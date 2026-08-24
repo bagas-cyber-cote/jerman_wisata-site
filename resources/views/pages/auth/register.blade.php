@@ -1,5 +1,8 @@
 <x-layouts::auth :title="__('Register')">
-    <div class="flex flex-col gap-6">
+    <div class="mx-auto flex w-full max-w-md flex-col gap-7">
+        <div class="mb-1 lg:hidden">
+            <p class="text-xs font-bold uppercase tracking-[0.3em] text-amber-400">Wanderlust</p>
+        </div>
         <x-auth-header :title="__('Create an account')" :description="__('Enter your details below to create your account')" />
 
         <!-- Session Status -->

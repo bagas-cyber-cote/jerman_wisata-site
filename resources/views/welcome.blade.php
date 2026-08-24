@@ -28,7 +28,7 @@
   
   <!-- Gambar Background mengambil file dari public/storage -->
   <img 
-    src="{{ asset('storage/air-terjun-jeruk-manis.jpg') }}" 
+    src="{{ asset('storage/sawah-jerman.png') }}" 
     alt="Background Home" 
     class="absolute inset-0 w-full h-full object-cover object-center"
   />
@@ -41,9 +41,9 @@
     <h1 class="text-4xl md:text-6xl font-extrabold mb-4 drop-shadow-md tracking-tight leading-tight">
       WELCOME TO THE TRAVEL WEBSITE OF JERUK MANIS
     </h1>
-    <p class="text-lg text-gray-300 drop-shadow mb-10 font-light">
-      Official website for tourist information and booking tour guides jeruk manis tourism.
-    </p>
+    <p class="text-sm text-cyan-200 mb-6 font-light px-5 py-2.5 bg-cyan-950/30 rounded-xl backdrop-blur-md border border-cyan-400/60 shadow-[0_0_15px_rgba(34,211,238,0.3)] inline-block">
+  Official website for tourist information and booking tour guides jeruk manis tourism.
+</p>
     
     <!-- Tombol Minimalis & Futuristik -->
     <div class="flex flex-col sm:flex-row justify-start items-stretch sm:items-center gap-5">
@@ -51,7 +51,7 @@
       <!-- Tombol Register (Glow Cyber style) -->
       <a href="{{ route('register') }}" class="group relative inline-flex items-center justify-center px-8 py-3 text-sm font-medium tracking-wide text-white transition-all duration-300 ease-out bg-white/10 rounded-full backdrop-blur-md border border-white/20 hover:border-cyan-400 hover:bg-cyan-500/20 hover:shadow-[0_0_25px_rgba(34,211,238,0.4)] active:scale-95">
         <span class="relative z-10 flex items-center gap-2">
-          Regist Now
+          Booking Now
           <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
           </svg>
@@ -59,9 +59,9 @@
       </a>
 
       <!-- Tombol Login (Glassmorphism Line style) -->
-      <a href="{{ route('login') }}" class="group relative inline-flex items-center justify-center px-8 py-3 text-sm font-medium tracking-wide text-gray-300 transition-all duration-300 ease-out rounded-full border border-white/10 hover:border-white/40 hover:text-white hover:bg-white/5 active:scale-95">
-        <span class="relative z-10">Login</span>
-      </a>
+      <a href="{{ route('login') }}" class="group relative inline-flex items-center justify-center px-8 py-3 text-sm font-medium tracking-wide text-gray-300 transition-all duration-300 ease-out rounded-full border border-white/10 hover:border-emerald-400 hover:text-emerald-300 hover:bg-emerald-500/20 hover:shadow-[0_0_25px_rgba(52,211,153,0.4)] active:scale-95">
+  <span class="relative z-10">Login</span>
+</a>
 
     </div>
   </div>
@@ -69,7 +69,7 @@
 
     <!-- SECTION INFORMATION -->
     <section id="information" class="py-20 max-w-6xl mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-8">Informasi</h2>
+      <h2 class="text-3xl font-bold text-center mb-8">Information</h2>
       <div class="grid md:grid-cols-2 gap-8">
         <div class="bg-white p-6 rounded-lg shadow-sm border">
           <h3 class="text-xl font-bold mb-2">Tentang Kami</h3>
@@ -85,7 +85,6 @@
     <!-- SECTION GALLERY -->
     <section id="gallery" class="py-20 bg-gray-100">
       <div class="max-w-6xl mx-auto px-4">
-        <h2 class="text-3xl font-bold text-center mb-8">Galeri</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           <div class="bg-gray-300 h-48 rounded-lg flex items-center justify-center text-gray-500">[ Foto 1 ]</div>
           <div class="bg-gray-300 h-48 rounded-lg flex items-center justify-center text-gray-500">[ Foto 2 ]</div>
